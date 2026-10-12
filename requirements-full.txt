@@ -1,0 +1,10 @@
+-r requirements.txt
+# Optional model backends: install these for the report's full comparison.
+# Bounds are compatibility ranges, not a claim that every version was tested here.
+xgboost>=3.0,<4
+shap>=0.48,<0.51
+torch>=2.6,<3
+jupyterlab>=4,<5
+ipykernel>=6,<8
+nbformat>=5.10,<6
+nbclient>=0.10,<1
